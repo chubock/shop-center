@@ -1,0 +1,5 @@
+shop-center:
+  user-service:
+    verification-code-ttl-seconds: 300
+    verification-code-length: 5
+    generated-password-length: 16

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: file-service
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-service
+      fail-fast: true
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://172.17.0.1:8761/eureka
